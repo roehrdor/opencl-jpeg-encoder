@@ -14,13 +14,13 @@ The program encodes a raw ppm image to an jpeg image
 ./jpeg_enc src.ppm out.jpg <quality>
 ```
 
-## Using 
+## Usage 
 ```c++
-	/* Create the encoder */
-	jpeg::JPEGEncoder encoder(<cl_device_type>, <quality>);
-	
-	/* Encode the image */
-	encoder.encode_image(<input_buffer>, <width>, <height>, <output_file>);
+/* Create the encoder */
+jpeg::JPEGEncoder encoder(<cl_device_type>, <quality>);
+
+/* Encode the image */
+encoder.encode_image(<input_buffer>, <width>, <height>, <output_file>);
 ```
 
 # Performance
